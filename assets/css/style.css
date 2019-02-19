@@ -1,0 +1,133 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#img-div {
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  margin: auto;
+  border-radius: 5px;
+}
+
+.navbar {
+  width: 100%;
+  background-color: #1da1f2;
+  height: 64px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.logo {
+  text-transform: uppercase;
+  padding-left: 20px;
+}
+
+.logo > a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.menu {
+  display: flex;
+  margin: 0;
+}
+
+.menu > li > a {
+  text-decoration: none;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 1rem;
+  padding: 15px;
+}
+
+.menu > li > a:hover {
+  background-color: #1099ee;
+  padding: 21px 15px;
+}
+
+.active {
+  background-color: #1099ee;
+  padding: 21px 15px !important;
+}
+
+.text-justify {
+  text-align: justify !important;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.container {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.hr-style {
+  border: 0;
+  height: 1px;
+  background-image: -webkit-linear-gradient(left, #ffffff, #0463b6, #ffffff);
+  background-image: -moz-linear-gradient(left, #ffffff, #0463b6, #ffffff);
+  background-image: -ms-linear-gradient(left, #ffffff, #0463b6, #ffffff);
+  background-image: -o-linear-gradient(left, #ffffff, #0463b6, #ffffff);
+}
+
+.primary {
+  color: #0275d8 !important;
+}
+
+ul > li {
+  list-style: none;
+}
+
+.list > li {
+  margin: 10px 0;
+}
+
+.section {
+  width: 100% !important;
+  color: #5b6f80 !important;
+}
+
+.iframe {
+  height: 400px;
+  margin: 15px;
+  width: 45%;
+}
+
+footer {
+  background-color: #1da1f2;
+  height: 56px;
+  text-align: center;
+  line-height: 56px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+#top-button {
+  text-decoration: none;
+  color: #fff;
+  line-height: 50px;
+  font-size: 3rem;
+  position: fixed;
+  top: 92%;
+  left: 95%;
+}
+
+#stick-button {
+  text-align: center;
+  background-color: #1da1f2;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
